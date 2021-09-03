@@ -18,7 +18,7 @@ var romanToIntegerTests = []romanToIntegerConversionTest{
 func TestRomanToInteger(t *testing.T) {
 
 	for _, test := range romanToIntegerTests {
-		convertedValue := RomanToInteger_Current(test.input)
+		convertedValue := RomantointegerTarget(test.input)
 		if convertedValue != test.expected {
 			t.Errorf(
 				"roman to integer test %s failed. expected '%d' but got '%d'",
