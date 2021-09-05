@@ -4,7 +4,7 @@ package main
 import "fmt"
 
 func main() {
-	addAndDelete()
+	kindsOfOrder()
 }
 
 func addAndDelete() {
