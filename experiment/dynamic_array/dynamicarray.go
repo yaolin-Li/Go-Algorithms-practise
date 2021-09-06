@@ -18,6 +18,7 @@ func (da *DynamicArray) CheckRangeFromIndex(index int) error {
 	}
 	return nil
 }
+
 func (da *DynamicArray) NewCapacity() {
 	if da.capacity == 0 {
 		da.capacity = defaultCapacity
@@ -40,6 +41,7 @@ func (da *DynamicArray) CheckArrayLen(index int) error {
 	}
 	return nil
 }
+
 func (da *DynamicArray) Put(index int, element interface{}) error {
 	da.CheckArrayLen(index)
 
