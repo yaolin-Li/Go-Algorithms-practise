@@ -176,4 +176,5 @@ func TestStackLinkedListWithList(t *testing.T) {
 			t.Errorf("Stack Emtpy is not work we expected %v but got %v", true, stackList.Empty())
 		}
 	})
+
 }
