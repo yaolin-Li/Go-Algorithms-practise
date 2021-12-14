@@ -3,7 +3,6 @@ package segmenttree
 const emptyLazyNode = -1
 
 import (
-	"github.com/Go-Algorithms-practise/math/max"
 	"github.com/Go-Algorithms-practise/math/min"
 )
 type SegmentTree struct {
@@ -41,5 +40,5 @@ func (s *SegmentTree) Query(node int, leftNode int, rightNode int, firstIndex in
 
 	mid := (leftNode + rightNode) / 2
 
-	leftNodeSum := s.Query(2 * node, leftNode, mid, firstIndex, min.Int(mid,lastIndex))
+	leftNodeSum := s.Query(2 * node, leftNode, mid, firstIndex, min)
 }

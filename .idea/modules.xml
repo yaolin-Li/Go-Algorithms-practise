@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Go/.idea/Go.iml" filepath="$PROJECT_DIR$/../Go/.idea/Go.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Go-Algorithms-practise.iml" filepath="$PROJECT_DIR$/.idea/Go-Algorithms-practise.iml" />
     </modules>
   </component>
