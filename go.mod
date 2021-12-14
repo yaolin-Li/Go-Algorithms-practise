@@ -1,3 +1,3 @@
-module github.com/Go-Algorithms-practise/experiment
+module github.com/Go-Algorithms-practise
 
 go 1.17
